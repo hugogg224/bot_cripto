@@ -13,7 +13,7 @@ leverage_limit = float(os.getenv("LEVERAGE_LIMIT", 25))
 cooldown_minutes = float(os.getenv("COOLDOWN_MINUTES", 7))
 
 # === PARÁMETROS DE CAPITAL ===
-capital_total = float(os.getenv("CAPITAL_TOTAL", 2))  # Capital total
+capital_total = float(os.getenv("CAPITAL_TOTAL", 10))  # Capital total
 target_price = float(os.getenv("PRICE_TARGET", 102000))  # Precio objetivo BTC
 
 # === CÁLCULOS DE CAPITAL ===
