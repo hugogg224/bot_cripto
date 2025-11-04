@@ -1,1 +1,1 @@
-worker: python bot_futures_bybit_v5_auto.py
+worker: python botfutures.py
