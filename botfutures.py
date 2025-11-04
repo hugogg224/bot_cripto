@@ -42,7 +42,7 @@ print(f"Target Price: {target_price}\n")
 # === FUNCIONES ===
 def get_price():
     try:
-        data = session.get_tickers(category="linear", symbol=symbol)
+        data = session.get_tickers(category="spot", symbol=symbol)
         return float(data['result']['list'][0]['lastPrice'])
     except Exception as e:
         print("⚠️ Error al obtener precio:", e)
